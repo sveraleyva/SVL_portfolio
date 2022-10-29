@@ -1,0 +1,48 @@
+/* Elements */
+
+* {
+    box-sizing: border-box
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-image: url("mountains.jpg");
+}
+
+a {
+    color: #0b032d;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 1rem;
+}
+
+header h1 {
+    color: #0b032d;
+    display: inline-block;
+    font-size: xx-large;
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+nav ul li {
+    word-spacing: 1rem;
+}
+
+main {
+    margin: 1%;
+}
