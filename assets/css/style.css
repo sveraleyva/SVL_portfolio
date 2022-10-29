@@ -1,13 +1,9 @@
 /* Elements */
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-html {
-    background-image: url("mountains.jpg");
 }
 
 a {
@@ -21,6 +17,7 @@ a:active {
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("/Users/samanthaleyva/code/portfolio/assets/fallleaves.png");
 }
 
 header {
@@ -45,4 +42,8 @@ nav ul li {
 
 main {
     margin: 1%;
+}
+
+.bi {
+    display: none;
 }
