@@ -1,5 +1,4 @@
 /* Elements */
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,43 +6,72 @@
 }
 
 a {
-    color: #0b032d;
+    color: #735d78;;
     text-decoration: none;
 }
 
-a:active {
-    text-decoration: underline;
+a:hover {
+    color: #f7d1cd;
+
 }
 
 body {
+    background-color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("/Users/samanthaleyva/code/portfolio/assets/fallleaves.png");
+    line-height: 1.5;
+}
+
+section {
+    background-color: #b392ac;
+    border-radius: 4px;
+    padding: 2rem;
+    margin: 1.5%;
 }
 
 header {
-    padding: 1rem;
+    background-color: transparent;
+    box-shadow: rgb(0 0 0 / 10%) 0 2px 20px 1px;
+    left: 0;
+    padding-bottom: 2.7rem;
+    padding-top: 1.25rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    top: 0;
 }
 
 header h1 {
-    color: #0b032d;
-    display: inline-block;
-    font-size: xx-large;
+    color: #735d78;
+    font-size: 1.9rem;
+    font-weight: 900;
 }
 
-nav {
-    display: inline-flex;
-    flex-direction: row;
+header nav {
+    display: block;
     font-size: large;
+    position: relative;
 }
 
-nav ul li {
-    word-spacing: 1rem;
+header nav ul {
+    word-spacing: 1.5rem;
+    position: absolute;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 main {
     margin: 1%;
 }
 
-.bi {
-    display: none;
+/* classes */
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
+
+/* media quarries */
+@media screen and (max-width: 425)
+*/
