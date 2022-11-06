@@ -1,0 +1,179 @@
+/* For mobile */
+
+/* ELEMENTS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: floralwhite;
+    text-decoration: none;
+    line-height: 40%;
+    height: 40%;
+}
+
+a:hover {
+    color: #f7d1cd;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+section {
+    padding: 2rem;
+}
+
+h1 {
+    color: ghostwhite;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    margin: 2%;
+}
+
+nav {
+    font-size: large;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+nav ul {
+    word-spacing: 1.5rem;
+    width: 100%;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    border-top: 0.3px solid #735d78;
+    border-radius: 3px;
+    margin-bottom: 0.15rem;
+    width: 100%;
+}
+
+nav a {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CLASSES */
+
+/* background colors */
+
+.bgc1 {
+    background-color: #EEE2DF;
+}
+
+.bgc2 {
+    background-color: #3A2E39;
+}
+
+.bgc3 {
+    background-color: #C89F9C;
+}
+
+.bgc4 {
+    background-color: #EED7C5;
+}
+
+.headshot {
+    width: 15rem; 
+    height: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-top: 1rem;
+}
+
+/* menu */
+.menuWrap {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.menuWrap .toggler {
+    position: absolute;
+    top: 0;
+    left: 1;
+    z-index: 2;
+    width: 3rem;
+    height: 4rem;
+    opacity: 0;
+}
+
+.menuWrap .hamburger {
+    position: absolute;
+    top: 0;
+    left: 1;
+    z-index: 1;
+    width: 4rem;
+    padding: 1rem;
+}
+
+.menuWrap .menu {
+    display: none;
+}
+
+.menuWrap .toggler:checked ~ .menu {
+    display: flex;
+}
+
+/* MEDIA QUARRIES */
+
+/* for tablet */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        margin-top: 0%;
+        padding-bottom: rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0rem;
+        margin-bottom: 2%
+    }
+    
+    .menuWrap .hamburger {
+        margin-top: 0.75%;
+    }
+
+    /* About */
+    .wrapTxtImg {
+        display: flex;
+        align-content: space-around;
+        align-items: center;
+    }
+}
+
+/* for desktop */
+@media screen and (min-width: 1024px) {
+    h1 {
+        margin: 0.25%;
+    }
+
+    header ul {
+        display: flex;
+    }
+    
+    header ul li {
+        border-color: transparent;
+        box-shadow: none;
+    }
+
+    .menuWrap .hamburger {
+        display: none;
+    }
+
+    .menuWrap .menu {
+        display: flex;
+    }
+}
