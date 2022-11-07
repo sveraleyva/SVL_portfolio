@@ -1,5 +1,5 @@
 # Samantha Vera Leyva's Portfolio
-URL to App: https://sveraleyva.github.io/portfolio/
+URL to App: https://sveraleyva.github.io/SVL_portfolio/
 
 Purpose: To showcase my work in an orderly fashion for future employers.
 
